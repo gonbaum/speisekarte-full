@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/items
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkdvbnphR0MiLCJpZCI6IjVmMDIyNzc1MjQwMTVhMDk3YzkyMGU2NyIsImlhdCI6MTU5Mzk3NjgyNn0.rSZHgz09WidwaWZ_XlCUQXT4FLzqrQlLCujZLwtZg8o
+
+{
+          "name": "Toast mit Schinken und Käse",
+          "description": "",
+          "img": "https://www.gutekueche.at/img/rezept/3859/alpen-kaesespaetzle.jpg",
+          "category": "Klassiker",
+          "subcategory": "Unsere Klassiker",
+          "price": 4.20,
+          "highlighted": false,
+          "userId": "5f02277524015a097c920e67"
+}
